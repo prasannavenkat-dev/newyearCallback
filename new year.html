@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas&display=swap" rel="stylesheet">
+        <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #11698e;
+            color: black;
+            text-align: center;
+        }
+        .container-fluid{
+             margin-top: 20%; 
+             font-family: 'Mountains of Christmas', cursive;
+             font-size: 50px;
+             font-weight: bold;
+       
+        }
+    </style>
+</head>
+
+<body>
+
+    <script>
+        var i = document.createElement('div');
+        i.setAttribute('class', 'container-fluid' )
+        document.body.append(i);
+
+        function timer10(cb) {
+
+            setTimeout(function () {
+
+
+
+                i.innerHTML = 10;
+
+
+                cb();
+
+            }, 1000)
+        }
+
+        function timer9(cb) {
+
+            setTimeout(function () {
+
+                i.innerHTML = ' ';
+                i.innerHTML = 9;
+                cb();
+
+            }, 1000)
+        }
+        function timer8(cb) {
+
+            setTimeout(function () {
+
+                i.innerHTML = ' ';
+                i.innerHTML = 8;
+
+                cb();
+            }, 1000)
+        }
+        function timer7(cb) {
+
+            setTimeout(function () {
+
+                i.innerHTML = ' ';
+                i.innerHTML = 7;
+
+                cb();
+            }, 1000)
+        }
+        function timer6(cb) {
+
+            setTimeout(function () {
+
+                i.innerHTML = ' ';
+                i.innerHTML = 6;
+
+                cb();
+            }, 1000)
+        }
+        function timer5(cb) {
+
+            setTimeout(function () {
+
+                i.innerHTML = ' ';
+                i.innerHTML = 5;
+                cb();
+
+            }, 1000)
+        }
+        function timer4(cb) {
+
+            setTimeout(function () {
+
+                i.innerHTML = ' ';
+                i.innerHTML = 4;
+
+                cb();
+            }, 1000)
+        }
+        function timer3(cb) {
+
+            setTimeout(function () {
+
+                i.innerHTML = ' ';
+                i.innerHTML = 3;
+                cb();
+
+            }, 1000)
+        }
+        function timer2(cb) {
+
+            setTimeout(function () {
+
+                i.innerHTML = ' ';
+                i.innerHTML = 2;
+
+                cb();
+            }, 1000)
+        }
+        function timer1(cb) {
+
+            setTimeout(function () {
+
+                i.innerHTML = ' ';
+                i.innerHTML = 1;
+                cb();
+
+            }, 1000)
+        }
+
+        function msg() {
+            setTimeout(function () {
+                i.innerHTML = ' ';
+                i.innerHTML = 'WISHING YOU A VERY HAPPY NEW YEAR 2021!!!';
+            }, 1000)
+        }
+
+
+        timer10(function () {
+            timer9(function () {
+                timer8(function () {
+                    timer7(function () {
+                        timer6(function () {
+                            timer5(function () {
+                                timer4(function () {
+                                    timer3(function () {
+                                        timer2(function () {
+                                            timer1(function () {
+
+                                                msg();
+
+                                            })
+                                        });
+                                    });
+                                });
+                            });
+                        });
+                    });
+                });
+            });
+        });
+
+    </script>
+</body>
+
+</html>
